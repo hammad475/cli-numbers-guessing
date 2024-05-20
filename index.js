@@ -4,7 +4,8 @@ import inquirer from "inquirer";
 // user input for guessing number =done
 // compare user input with computer generated number and show result
 const randomNumber = Math.floor(Math.random() * 10 + 1);
-;
+
+
 //console.log(answer);
 const answer = await inquirer.prompt([
     {
@@ -19,3 +20,4 @@ if (answer.userGuessedNumber === randomNumber) {
 else {
     console.log("you guessed a wrong number");
 }
+console.log("THE END");

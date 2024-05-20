@@ -3,7 +3,7 @@ import inquirer from "inquirer";
 // computer will generate a random number = done
 // user input for guessing number =done
 // compare user input with computer generated number and show result
-const randomNumber = Math.floor(Math.random() * 10 + 1);;
+const randomNumber = Math.floor(Math.random() * 10 + 1);
 
 
 //console.log(answer);
@@ -20,3 +20,5 @@ if (answer.userGuessedNumber === randomNumber) {
 else {
     console.log("you guessed a wrong number");
 }
+
+console.log("THE END");
